@@ -1,0 +1,2 @@
+const APItoken = "Bearer 6bb91088b0718d13be29cf24e5e29d859657fb889fab93dcd0875eb0b52eb435"
+export default APItoken;
