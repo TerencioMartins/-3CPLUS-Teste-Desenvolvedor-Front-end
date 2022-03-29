@@ -8,7 +8,7 @@ Projeto desenvolvido em Vue3 para teste de desenvolvedor Front-End da 3CPLUS.
 ```
 docker run -p 8080:8080 --name terencio-container terenciomartins/3cplus-teste-frontend
 ```
-### Depois de executados, acesse `localhost:8080`
+### Depois de executado, acesse `localhost:8080`
 
 #
 <br></br>
