@@ -227,6 +227,7 @@ export default {
   </div>
 </template>
 
+
 <style lang="scss">
 .active {
   width: 35px;
