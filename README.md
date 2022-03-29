@@ -1,4 +1,5 @@
 # [3CPLUS] Teste Desenvolvedor Front-end
+Projeto desenvolvido em Vue3 para teste de desenvolvedor Front-End da 3CPLUS.
 <br></br>
 ## Instalação/Execução `DOCKER`
 
