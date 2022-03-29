@@ -215,7 +215,7 @@ export default {
         </tbody>
       </table>
       <nav class="nav__pages">
-        <button class="btn btn-primary" @click="decreaseCounter(1)">
+        <button class="btn btn-primary" @click="decreaseCounter(1)" :disabled="(counterData.l <= 1)">
           Página anterior
         </button>
         <h4>{{ counterData.l }}</h4>

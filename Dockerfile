@@ -1,8 +1,9 @@
-FROM node:lts-alpine
-RUN npm install -g http-server
-COPY package*.json ./
-RUN npm install
+FROM node:14-alpine
+
 COPY . .
-RUN npm run build
+
+RUN npm install
+
 EXPOSE 8080
-CMD [ "http-server", "dist" ]
+
+CMD ["npm", "run", "serve"]
