@@ -3,22 +3,10 @@ Projeto desenvolvido em Vue3 para teste de desenvolvedor Front-End da 3CPLUS.
 <br></br>
 ## Instalação/Execução `DOCKER`
 
-### Clone o repositório
 
+### Execute este comando para baixar e executar a imagem:
 ```
-git clone https://github.com/TerencioMartins/-3CPLUS-Teste-Desenvolvedor-Front-end.git
-```
-
-### Abra um terminal na pasta do repositorio clonado → `tenha certeza que você está no caminho correto.`
-
-### Execute no terminal, para gerar a imagem:
-```
-docker image build -t terencio-martins/teste-front-end .
-```
-
-### Execute no terminal, para executar o container:
-```
-docker run -p 8080:8080 --name terencio-container terencio-martins/teste-front-end
+docker run -p 8080:8080 --name terencio-container terenciomartins/3cplus-teste-frontend
 ```
 ### Depois de executados, acesse `localhost:8080`
 
